@@ -13,5 +13,5 @@ func Hello(name string) string {
 	}
 	// If a name was received, return a value that embeds the name
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
-	return message
+	return message, nil
 }
